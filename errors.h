@@ -1,0 +1,27 @@
+#ifndef ERRORS_H
+#define ERRORS_H
+
+#define RED "\033[1;31m"
+#define NORMAL "\033[0m"
+
+
+#define VARIABLE_INITIALIZED 2
+
+#define SUCCESS 1
+
+#define UNCLOSED_COMMENT -1
+
+#define IS_NOT_PRIMITIVE -10
+#define IS_NOT_ARRAY -11
+#define VARIABLE_NOT_DECLARED -12
+#define ARRAY_OUT_OF_BOUNDS -13
+#define VARIABLE_ALREADY_DECLARED -14
+
+#define ZERO_SIZE_ARRAY -15
+#define VARIABLE_UNINITIALIZED -16
+
+#define ASSIGN_ON_ITERATOR -17
+
+
+
+#endif
